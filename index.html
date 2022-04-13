@@ -1,11 +1,115 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <meta charest="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>りおんちゃんのホームページ</title>
+    <meta charset="UTF-8" />
+    <title>Rion's LIFE</title>
+    <link rel="stylesheet" href="css/index.css" />
   </head>
+
   <body>
-    <p>りおんちゃんのホームページ</p>
+    <header>
+      <div class="mozi">
+        <div class="image"><img src="./image/header.jpg" /></div>
+        <p>RION's PORTFOLIO</p>
+      </div>
+    </header>
+
+    <main>
+      <h4>ABOUT</h4>
+
+      <section>
+        <div style="text-align: right">
+          <img
+            src="./image/profile.JPG"
+            style="float: right; margin-left: 10px; margin-bottom: 10px"
+            width="425"
+            height="500"
+          />
+        </div>
+        <h2>PLOFILE</h2>
+        <ul>
+          <li>名前：井上里音（いのうえりおん）</li>
+          <li>出身地：大阪</li>
+          <li>
+            私のポートフォーリオサイトへようこそ！情報系のゼミで、ウェブデザインを中心に勉強している大学生です。
+          </li>
+        </ul>
+
+        <h2>SKILL</h2>
+        <ul>
+          <li>ITパスポート</li>
+          <li>実用英語技能検定2級</li>
+        </ul>
+
+        <h2>SNS</h2>
+        <ul>
+          <li>
+            ウェブデザインや、気になったニュースについて不定期に発信しています。
+          </li>
+          <li>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+            <ul class="follow-me">
+               <li><a href="https://twitter.com/ri_UGOK"></a></li>
+               <li><a href="https://www.instagram.com/rionnkn_/?hl=ja"></a></li>
+          </li>
+        </ul>
+      </section>
+
+      　　　
+      <h4>WORK</h4>
+
+      <section>
+        <h2>個人作品</h2>
+        <ul>
+          <li>作品名：My Calendar</li>
+          <li>作成者：井上里音</li>
+          <li>作成期間：2021年1月〜2022年4月</li>
+          <li>使用サイト：Bubble</li>
+        </ul>
+        <h2>グループ作品</h2>
+        <ul>
+          <li>作品名：MIRINON MUSIC</li>
+          <li>作成者：みりのん（岡田望・超智美月・井上里音）</li>
+          <li>作成期間：2021年12月〜2022年1月</li>
+          <li>使用サイト：Bubble</li>
+          <div class="iframe">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/IWVOXz4yZdY"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </ul>
+      </section>
+
+      　　　
+      <h4>CONTACT</h4>
+
+      <section>
+        <h2>お問い合わせ</h2>
+        <form action="#" method="post">
+          <li>
+            <lavel>名前<input type="text" name="name" /></lavel>
+          </li>
+          <li>
+            <lavel>電話<input type="telname" name="tel" /></lavel>
+          </li>
+          <li>
+            <lavel for="comment">内容</lavel
+            ><textarea id="comment" name="comment"></textarea>
+          </li>
+          <li><button type="submit">送信</button></li>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <hr />
+      <p>Copyright (c) 2022 InoueRion All Rights Reserved.</p>
+    </footer>
   </body>
 </html>
