@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #bbccdd;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mozi {
+  position: relative;
+}
+
+.mozi p {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 5em;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+}
+
+.mozi img {
+  width: 100%;
+}
+
+.image {
+  margin-right: calc(50% - 50vw);
+  margin-left: calc(50% - 50vw);
+}
+
+.image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  animation-name: fadeup;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes fadeup {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+section img {
+  animation-name: fadeup;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes fadeup {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h1 {
+  color: ivory;
+  text-align: left;
+  font-size: 2em;
+  animation-name: fadeup;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes fadeup {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+nav {
+  border-bottom: 5px solid #ccc;
+  position: relative;
+}
+
+nav ul {
+  position: absolute;
+  left: 10%;
+  display: table;
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+  text-align: center;
+  animation-name: fadeup;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+@keyframes fadeup {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+nav ul li {
+  display: table-cell;
+  min-width: 50px;
+}
+nav ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0;
+  text-decoration: none;
+  color: #aaa;
+}
+nav ul li.current {
+  font-weight: bold;
+  border-top: 5px solid #00b0f0;
+}
+nav ul li.current a {
+  color: #00b0f0;
+}
+nav ul li a:hover {
+  color: #0089bb;
+  background-color: #fbfbdd;
+}
+nav ul li:hover {
+  border-top: 5px solid #f8e750;
+}
+
+main {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #aaa;
+}
+
+main section {
+  margin-bottom: 1em;
+}
+
+main > section {
+  margin-bottom: 2em;
+}
+
+h4 {
+  color: ivory;
+  text-align: center;
+  font-size: 3em;
+  padding: 20px;
+  text-align: center;
+  margin-top: 1em;
+  animation-name: fadeup;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+@keyframes fadeup {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+main h2 {
+  color: saddlebrown;
+  border-left: solid ivory;
+  border-bottom: solid 1px ivory;
+  padding-left: 1ex;
+  height: 50px;
+  line-height: 50px;
+  margin-bottom: 1ex;
+  margin-top: 1em;
+  animation-name: fadeup;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes fadeup {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h2:first-child {
+  margin-top: 0;
+}
+
+h3 {
+  color: ivory;
+  margin-top: 1em;
+}
+
+h3:first-child {
+  margin-top: 0;
+}
+
+main ul {
+  padding-left: 1ex;
+  animation-name: fadeup;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes fadeup {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+main li {
+  color: saddlebrown;
+  list-style-type: none;
+}
+
+main li::before {
+  color: ivory;
+  font-weight: bold;
+}
+
+main p::first-letter {
+  font-size: 150%;
+}
+
+#me {
+  width: 350px;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  float: right;
+}
+
+#map {
+  width: 650px;
+  margin-top: 1em;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+
+.iframe {
+  text-align: center;
+  margin-top: 1em;
+}
+
+form {
+  animation-name: fadeup;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes fadeup {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+footer {
+  clear: both;
+  width: 1200px;
+  text-align: center;
+  color: ivory;
+  background-color: saddlebrown;
+  animation-name: fadeup;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes fadeup {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animation1 {
+  animation-name: animation1;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+.follow-me {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 -8px;
+  overflow: hidden;
+  padding: 0;
+}
+.follow-me li {
+  text-align: center;
+  margin: 0 8px 8px 0;
+  padding: 0;
+}
+.follow-me li a::before {
+  margin-top: 1em;
+  background-color: #eee;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #333;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 30px;
+  height: 60px; /* Button height */
+  line-height: 60px; /* Button height */
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  text-align: center;
+  width: 60px; /* Button width */
+}
+.follow-me li a:hover::before {
+  background-color: #333;
+  color: #fff;
+}
+
+.follow-me li a[href*="twitter.com"]::before {
+  content: "\f099";
+}
+.follow-me li a[href*="instagram.com"]::before {
+  content: "\f16d";
+}
